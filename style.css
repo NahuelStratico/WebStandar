@@ -2,3 +2,168 @@ body{
     font-family: 'Roboto Slab', serif;
     /* font-family: 'Open Sans', sans-serif; */
 }
+
+/* ======================================== Header ================================== */
+
+.header__nav{
+    background: #142850;
+}
+
+.header__container{
+    width: 100%;
+    min-height: 450px;
+    background: #27496d;
+}
+.header__content h1{
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.2em;
+    font-weight: 600;
+    margin: 3rem 0 0 3.5rem ;
+}
+.header__content p{
+    margin:  1rem 1rem 0 3.5rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.header__content button{
+    margin: 2rem 0 0 3.5rem ;
+}
+.header__img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('./img/mantenimiento.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ======================================== MAIN ================================== */
+
+/* ///////////////////////// Quienes somos */
+
+.who__container{
+   padding: 0 15px;
+   margin: 5rem 0 7rem 0;
+}
+.who__title{
+    margin: 2rem 3rem 2rem 3.5rem;
+}
+.who__title h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.who__title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.who__container .who__content{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 1rem 5rem 0 3.5rem;
+    text-align: left;
+}
+
+/* ///////////////////////// Services */
+
+
+.services__container{
+    padding: 0 15px;
+    background: #0c7b93;
+}
+.services_container__content{
+    padding: 2rem 0 7rem 0;
+}
+.icon{
+    border: 1px solid #ffffff;
+    border-radius:50%;
+    border-color: azure;
+    padding: 2rem;
+}
+.icon i{
+    color: #ffffff;
+    font-size: 4rem;
+}
+.services_container__content h4{
+ margin: 2rem 0 .8rem 0;
+}
+
+/* ///////////////////////// Services */
+
+.works__container{
+    padding: 0 15px;
+    background: #ffffff;
+}
+.works__content{
+    margin: 0 2rem 7rem;
+}
+.works__title{
+    margin: 2rem 3rem 2rem 3.5rem;
+}
+.works__title h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.works__title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* ///////////////////////// Contact */
+
+.contact__container{
+    padding: 0 15px;
+    background: #f1f9f9;
+}
+.contact__content{
+    width: 100%;
+    margin: 0 2rem 7rem;
+}
+.contact__title{
+    margin: 2rem 3rem 2rem 3.5rem;
+}
+.contact__title h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.contact__title h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.contact__content span i{
+    font-size: 4rem;
+    color: #00a8cc;
+}
+.contact__content h6{
+    margin-top: 1.7rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    font-weight: 600;
+    color:#00a8cc;
+}
+
+
+/* ///////////////////////// Footer */
+.footer__container{
+    background: #142850;
+    padding: 4rem 15px;
+}
+.footer__container h5{
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+.footer__content{
+    margin: 3rem 0 0 0;
+}
+.footer__content i{
+    color: #ffffff;
+    font-size: 5rem;
+}

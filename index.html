@@ -15,10 +15,188 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     
     <!-- Font Awesome -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
+    <header>
+        <nav class="navbar navbar-expand-lg header__nav">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" href="#nosotros">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row m-0 header__container">  
+            <div class="col-6 header__content">
+                <h1>Wireframing in Figma</h1>
+                <p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sapiente autem laborum maxime ipsum maiores itaque, sit quo dicta doloribus?
+                </p>
+                <button class="btn btn-primary">Contactanos</button>
+            </div>
+            <div class="col-6 header__img">
+                <!-- img -->
+            </div>
+        </div>
+    </header>
+
+    <main class="main__container">
+            <section class="who__container">
+                <div class="who__title py-5">
+                    <h5 class="text-uppercase text-muted">Especialistas</h5>
+                    <h2 class="text-uppercase">Hormigon Elaborado</h2>
+                </div>
+                
+                <div class="who__content">
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido  del texto de un sitio mientras que mira su diseño. 
+                    </p>
+    
+                    <p>
+                        El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer.
+                    </p>
+                    
+                    <p>
+                        El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer.
+                    </p>
+                </div>
+            </section>
+
+            <section class="services__container">
+                <div class="who__title py-5">
+                    <h5 class="text-uppercase text-white">maxima calidad</h5>
+                    <h2 class="text-uppercase">Nuestros servicios</h2>
+                </div>
+
+                <div class="row mx-0 justify-content-center align-items-center services_container__content">
+                    <div class="col-md-4 d-flex flex-column justify-content-center text-center">
+                        <div class="d-flex justify-content-center">
+                            <span class="icon"><i class="fas fa-hard-hat"></i></span>
+                        </div>
+                        <h4 class="text-white">Maxima responsabilidad</h4>
+                        <p class="text-center text-light m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, obcaecati!
+                        </p>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column justify-content-center text-center">
+                        <div class="d-flex justify-content-center">
+                            <span class="icon"><i class="fas fa-hard-hat"></i></span>
+                        </div>
+                        <h4 class="text-white">Maxima responsabilidad</h4>
+                        <p class="text-center text-light m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, obcaecati!
+                        </p>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column justify-content-center text-center">
+                        <div class="d-flex justify-content-center">
+                            <span class="icon"><i class="fas fa-hard-hat"></i></span>
+                        </div>
+                        <h4 class="text-white">Maxima responsabilidad</h4>
+                        <p class="text-center text-light m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, obcaecati!
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="works__container">
+                <div class="works__title py-5">
+                    <h5 class="text-uppercase text-muted">Gestión</h5>
+                    <h2 class="text-uppercase">Obras realizadas</h2>
+                </div>
+                <div class="row m-0 justify-content-center">
+                    <div class="works__content d-flex flex-row justify-content-center">
+                        <div class="col-12 col-md-4 d-flex justify-content-center">
+                            <div class="card">
+                                <img src="./img/logistica.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 d-flex justify-content-center">
+                            <div class="card">
+                                <img src="./img/logistica.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 d-flex justify-content-center">
+                            <div class="card">
+                                <img src="./img/logistica.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="contact__container">
+                <div class="contact__title py-5">
+                    <h5 class="text-uppercase text-muted">Te estamos esperando</h5>
+                    <h2 class="text-uppercase">Contactanos</h2>
+                </div>
+                <div class="row">
+                    <div class="contact__content d-flex flex-row justify-content-center">
+                        <div class="col-12 col-md-4 d-flex flex-column text-center">
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <h6>San Martin</h6>
+                            <p class="m-0">4768-9867</p>
+                            <p class="m-0">Lorem ipsum dolor sit amet.</p>
+                            <strong>contant@gmail.com</strong>
+                        </div>
+                        <div class="col-12 col-md-4 d-flex flex-column text-center">
+                            <span><i class="fas fa-map-marker-alt"></i></span>
+                            <h6>San Martin</h6>
+                            <p class="m-0">5674-8302</p>
+                            <p class="m-0">Lorem ipsum dolor sit amet.</p>
+                            <strong>contant@gmail.com</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer__container text-center">
+                <h5>Seguinos en Redes Sociales</h5>
+                <div class="row justify-content-center align-items-center footer__content">
+                    <div class="col-12 col-md-2 text-center">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="col-12 col-md-2 text-center">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                </div>
+            </footer>
+    </main>
+ 
+    
 
 
     <!-- Bootstrap -->
